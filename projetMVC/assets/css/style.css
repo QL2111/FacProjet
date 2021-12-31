@@ -1,0 +1,184 @@
+body {
+    background: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20pt;
+    font-weight: 300;
+    line-height: 1.75em;
+
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    color: #666;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-size: 2em;
+    letter-spacing: -1px;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+header {
+    margin: 0 0 2em 0;
+}
+
+header > p {
+    margin: 1em 0 0 0;
+}
+
+footer {
+    margin: 2em 0 0 0;
+}
+
+
+
+
+/* nav */
+
+nav ul li a {
+    display: block;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+}
+.nav-list{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid black;
+    border-bottom: solid black;
+    list-style-type: none;
+
+}
+
+.nav-item{
+    margin-right: 2rem;
+    text-transform: uppercase;
+
+}
+
+.nav-item a{
+    color: #000;
+}
+
+
+/* a */
+a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+    outline: 0;
+}
+
+a:hover {
+    color: #E27689;
+    border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+
+/* Form */
+
+.box h2{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box{
+    width: 300px;
+    padding: 40px;
+    margin: auto;
+    background: #FFFAF0;
+    text-align: center;
+}
+
+.box input[type = "text"] , .box input[type = "file"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 40px;
+    text-align: center;
+    border: 2px solid #000080;
+    width: 8rem;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+
+.box input[type = "text"]:focus{
+    width: 12rem;
+    border-color: #2ecc71;
+}
+
+.box input[type="submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 40px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    background: #2ecc71;
+}
+
+
+/* Main */
+
+main {
+    margin-left: 1rem;
+}
+
+main > section {
+    margin: 0;
+    padding: 2rem 0;
+
+}
+
+.image {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.main-liste {
+
+    margin-left: 1rem;
+    list-style-type: circle;
+}
+
+.main-audio{
+    border: solid pink;
+    border-radius: 30px;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 1rem;
+}
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #dce3e2;
+    padding: 3em 0 4em 0;
+    font-size: 0.8em;
+}
+
